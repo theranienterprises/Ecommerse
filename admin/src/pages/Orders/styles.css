@@ -1,0 +1,50 @@
+.edit-popup 
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+}
+
+.popup-content {
+    position: relative;
+}
+
+.popup-content h4 {
+    margin-bottom: 16px;
+}
+
+.popup-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-content form .MuiTextField-root {
+    margin-bottom: 16px;
+}
+
+.popup-content form Button {
+    margin-top: 16px;
+}
+
+.edit-popup Button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+}
+
+.edit-popup Button:hover {
+    color: black;
+}

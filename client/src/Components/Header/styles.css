@@ -1,0 +1,26 @@
+.logoWrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .textWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px; /* Default margin between the logo and text */
+    font-size: 1rem; /* Default font size */
+  }
+  
+  @media (max-width: 768px) {
+    .textWrapper {
+      margin-left: 10px; /* Reduced margin for smaller screens */
+      font-size: 0.9rem; /* Slightly smaller text */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .textWrapper {
+      margin-left: 5px; /* Further reduce margin for very small screens */
+      font-size: 0.8rem; /* Even smaller text for very small screens */
+    }
+  }
+  
